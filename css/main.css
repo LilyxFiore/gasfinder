@@ -7,13 +7,101 @@
 
 header {
   color: #fff;
-  font-size: 18px;
-  height: 56px;
+  font-size: 24px;
+  font-weight: bold;
   line-height: 56px;
-  padding-left: 16px;
+  padding: 10px 5%;
   background-color: #F44336;
 }
 
 header .fa-chevron-left {
   margin-right: 16px;
+}
+
+.title{
+  padding-left: 15%;
+}
+.content-search{
+  background-color: #F44336;
+  padding: 0 10px 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+.search{
+  background-color: white;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid grey;
+  color: grey;
+}
+
+input{
+  width: 80%;
+  height: 50px;
+  outline: 0;
+  padding: 10px;
+  border: 0;
+  font-size: 20px;
+}
+
+.stations{
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding: 17px;
+}
+
+.icon-map{
+  position: absolute;
+  right: 5%;
+  bottom: 50%;
+  cursor: pointer;
+}
+
+.icon-left{
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  color: white;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.detail{
+  margin: auto;
+  width: 80%;
+  padding: 17px 0;
+  font-size: 20px;
+}
+
+.square{
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+.products{
+  margin-top: 30px;
+}
+
+.content-map{
+  width: 100%;
+  height: 300px;
+}
+
+#map {
+  position: absolute;
+  width: 80%;
+  height: 40%;
+}
+
+#km{
+  float: right;
 }
