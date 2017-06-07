@@ -5,6 +5,22 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.root{
+  width: 100%;
+}
+
+.wrapper{
+  border: 1px solid lightgrey;
+  height: 100vh;
+}
+
 header {
   color: #fff;
   font-size: 24px;
@@ -21,12 +37,14 @@ header .fa-chevron-left {
 .title{
   padding-left: 15%;
 }
+
 .content-search{
   background-color: #F44336;
   padding: 0 10px 20px 10px;
   display: flex;
   justify-content: center;
 }
+
 .search{
   background-color: white;
   width: 90%;
@@ -41,28 +59,28 @@ input{
   outline: 0;
   padding: 10px;
   border: 0;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .stations{
   position: relative;
   width: 100%;
   height: auto;
-  border: 1px solid gray;
-  font-size: 18px;
+  border-bottom: 1px solid gray;
+  font-size: 24px;
   padding: 17px;
 }
 
 .icon-map{
   position: absolute;
   right: 5%;
-  bottom: 50%;
+  top: 30%;
   cursor: pointer;
 }
 
 .icon-left{
   position: absolute;
-  top: 30px;
+  top: -9%;
   left: 20px;
   color: white;
 }
@@ -72,10 +90,11 @@ input{
 }
 
 .detail{
+  position: relative;
   margin: auto;
-  width: 80%;
+  width: 95%;
   padding: 17px 0;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .square{
@@ -92,16 +111,95 @@ input{
 }
 
 .content-map{
+  position: relative;
   width: 100%;
-  height: 300px;
+  height: 400px;
+  margin: 20px 0;
 }
 
 #map {
   position: absolute;
-  width: 80%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
+}
+
+hr{
+  margin: 10px 0;
 }
 
 #km{
   float: right;
+}
+
+/**medias */
+
+
+@media (min-width: 1200px){
+  body{
+    width: 60%;
+  }
+
+  .content-map{
+    height: 600px;
+  }
+
+  .icon-left{
+    position: absolute;
+    top: -6%;
+    left: 0;
+  }
+
+  .detail{
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px){
+  .title{
+    font-size: 30px;
+    padding-left: 15%;
+  }
+
+  body{
+    width: 60%;
+  }
+
+  .content-map{
+    height: 500px;
+  }
+
+  .icon-left{
+    position: absolute;
+    top: -7%;
+    left: 0;
+  }
+
+  .detail{
+    width: 80%;
+  }
+}
+
+@media (min-width: 601px){
+  .title{
+    font-size: 30px;
+    padding-left: 15%;
+  }
+
+  body{
+    width: 80%;
+  }
+
+  .content-map{
+    height: 500px;
+  }
+
+  .icon-left{
+    position: absolute;
+    top: -7%;
+    left: 0;
+  }
+
+  .detail{
+    width: 90%;
+  }
 }

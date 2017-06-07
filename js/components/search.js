@@ -15,7 +15,7 @@ const stationItem = (station, update) => {
 
   iconMap.on('click',(e) => {
    e.preventDefault();
-    initMap();
+    initMap()
     state.selectedStation = station;
     update();
 
