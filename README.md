@@ -34,7 +34,6 @@ Además la aplicación tiene algunas funciones extra para cargar la data de la a
 
 Se está incluyendo las siguientes librerias:
 
-- gmaps ([https://hpneo.github.io/gmaps/](https://hpneo.github.io/gmaps/))
 - font awesome ([http://fontawesome.io/](http://fontawesome.io/))
 - jquery ([https://jquery.com/](https://jquery.com/))
 
@@ -43,4 +42,3 @@ Se está incluyendo las siguientes librerias:
 1. Clonar el repositorio hacia tu cuenta personal para empezar con las modificaciones.
 2. Crea el componente search
 3. Crea el componente stationDetails
-4. Crea el componente gmap
